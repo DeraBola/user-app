@@ -1,7 +1,7 @@
  
  import React, { useState } from "react";
  import "bootstrap/dist/css/bootstrap.min.css"
- import './App.css'
+ 
  import UsersList from "../src/components/UsersList";
 
 const App = () => {
