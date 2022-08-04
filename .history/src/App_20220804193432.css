@@ -6,17 +6,5 @@ body {
     text-decoration: none;
     list-style-type: none;
     outline: none;
-    background: #a03351;
-}
-
-.container {
-    width: 100%;
-    margin: 1em auto;
-    background-color: #33a082;
-}
-
-.grid {
-    display: grid;
-    grid-gap: 1rem;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    background: #033a01;
 }
