@@ -1,10 +1,9 @@
  
  import React, { useState } from "react";
- import UsersList from "../src/components/UsersList";
 
 const App = () => {
   
-const [users, setusers] = useState([
+const [user, setuser] = useState([
   {
       "id": 1,
       "name": "Leanne Graham",
@@ -77,7 +76,7 @@ const [users, setusers] = useState([
 
   return (
     <div className="App">
-    <UsersList users={users} />
+    
     </div>
   )
 };
