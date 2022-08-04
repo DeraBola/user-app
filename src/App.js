@@ -78,8 +78,10 @@ const [users, setusers] = useState([
   },]);
 
   return (
-    <div className="App">
-    <UsersList users={users} />
+    <div className="container">
+      <div className="grid">
+      <UsersList users={users} />
+    </div>
     </div>
   )
 };
