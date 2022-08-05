@@ -82,13 +82,17 @@ const getUsersRequest = async () =>{
 
     const response = await fetch(url);
     const responseJson = await response.json();
-setusers(responseJson)
+
     console.log(responseJson);
 };
 
 useEffect(() => {
-    getUsersRequest();
-}, []);
+  first
+
+  return () => {
+    second
+  }
+}, [third])
 
 
   return (

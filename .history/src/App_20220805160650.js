@@ -1,5 +1,5 @@
  
- import React, { useState, useEffect } from "react";
+ import React, { useState } from "react";
  import "bootstrap/dist/css/bootstrap.min.css"
  import './App.css'
  import UsersList from "../src/components/UsersList";
@@ -82,14 +82,7 @@ const getUsersRequest = async () =>{
 
     const response = await fetch(url);
     const responseJson = await response.json();
-setusers(responseJson)
-    console.log(responseJson);
-};
-
-useEffect(() => {
-    getUsersRequest();
-}, []);
-
+}
 
   return (
     <div className="container">

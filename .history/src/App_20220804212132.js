@@ -1,5 +1,5 @@
  
- import React, { useState, useEffect } from "react";
+ import React, { useState } from "react";
  import "bootstrap/dist/css/bootstrap.min.css"
  import './App.css'
  import UsersList from "../src/components/UsersList";
@@ -77,19 +77,9 @@ const [users, setusers] = useState([
       }
   },
 ]);
-const getUsersRequest = async () =>{
-    const url = "https://jsonplaceholder.typicode.com/users";
-
-    const response = await fetch(url);
-    const responseJson = await response.json();
-setusers(responseJson)
-    console.log(responseJson);
-};
-
-useEffect(() => {
-    getUsersRequest();
-}, []);
-
+const getUsersRequest = () =>{
+    c
+}
 
   return (
     <div className="container">
