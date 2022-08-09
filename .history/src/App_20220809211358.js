@@ -3,7 +3,6 @@
  import "bootstrap/dist/css/bootstrap.min.css"
  import './App.css'
  import UsersList from "../src/components/UsersList";
- import Search from "../src/components/Search";
 
 const App = () => {
   
@@ -24,7 +23,7 @@ useEffect(() => {
 
   return (
     <div className="container">
-      <Search />
+      
       <div className="grid">
       <UsersList users={users} />
     </div>

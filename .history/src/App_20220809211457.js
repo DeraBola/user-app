@@ -3,7 +3,7 @@
  import "bootstrap/dist/css/bootstrap.min.css"
  import './App.css'
  import UsersList from "../src/components/UsersList";
- import Search from "../src/components/Search";
+ import Search from "../src/components/UsersList"
 
 const App = () => {
   
