@@ -8,9 +8,9 @@ const UsersList = (props) =>{
             <h2 className="name">{user.name}</h2>
             <h3>Email:{user.email}</h3>
             <h3>Phone Number: {user.phone}</h3> 
-            <h3>Website: {user.website}</h3>  
-            <h3>Address: {user.address.street}</h3>
-            <h3> Latitude: {user.address.geo.lat}</h3>
+            <p>Website: {user.website}</p>  
+            <p>Address: {user.address.street}</p>
+            <p> Latitude: {user.address.geo.lat}</p>
         </div>
     ))}
         </>

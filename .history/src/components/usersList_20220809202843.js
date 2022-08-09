@@ -10,7 +10,7 @@ const UsersList = (props) =>{
             <h3>Phone Number: {user.phone}</h3> 
             <h3>Website: {user.website}</h3>  
             <h3>Address: {user.address.street}</h3>
-            <h3> Latitude: {user.address.geo.lat}</h3>
+            <p> Latitude: {user.address.geo.lat}</p>
         </div>
     ))}
         </>
