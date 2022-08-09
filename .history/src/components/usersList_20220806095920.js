@@ -4,10 +4,10 @@ const UsersList = (props) =>{
     return (
         <>
         {props.users.map((user, id) => (
-        <div key={id} className="card text-center mg-3">
+        <div key={}  className="card text-center mg-3">
             <h2>{user.name}</h2>
             <p>{user.email}</p>
-            <p> {JSON.stringify(user.address)}</p>
+            <p>{user.body}</p>
         </div>
     ))}
         </>

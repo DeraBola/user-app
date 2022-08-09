@@ -6,7 +6,8 @@
 
 const App = () => {
   
-const [users, setusers] = useState([]);
+const [users, setusers] = useState([
+]);
 const getUsersRequest = async () =>{
     const url = "https://jsonplaceholder.typicode.com/users";
 

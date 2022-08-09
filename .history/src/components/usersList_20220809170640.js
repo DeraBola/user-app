@@ -1,4 +1,5 @@
 import React from "react";
+const userAddress = 
 
 const UsersList = (props) =>{
     return (
@@ -7,7 +8,7 @@ const UsersList = (props) =>{
         <div key={id} className="card text-center mg-3">
             <h2>{user.name}</h2>
             <p>{user.email}</p>
-            <p> {JSON.stringify(user.address)}</p>
+            <p>{JSON.stringify(user.address)}</p>
         </div>
     ))}
         </>
