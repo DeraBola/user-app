@@ -28,7 +28,7 @@
             border-top: 1px solid #f9f1f0;
             border-left: 1px solid #f9f1f0;
             margin-top: 10px;
-            padding: 3px;
+            padding: 5px;
         }
         
         .name {
@@ -56,5 +56,5 @@
         }
         
         .search input:focus {
-            outline: none;
+            o
         }

@@ -6,7 +6,7 @@
             text-decoration: none;
             list-style-type: none;
             outline: none;
-            background: #f8afa6;
+            background: #;
         }
         
         .container {
@@ -25,10 +25,10 @@
             border: 10px;
             background: rgba(255, 255, 255, 0.1);
             backdrop-filter: blur(5px);
-            border-top: 1px solid #f9f1f0;
-            border-left: 1px solid #f9f1f0;
+            border-top: 1px solid #a03351;
+            border-left: 1px solid #a03351;
             margin-top: 10px;
-            padding: 3px;
+            padding: 5px;
         }
         
         .name {
@@ -44,17 +44,5 @@
         .search {
             display: flex;
             align-items: center;
-            background-color: #f9f1f0;
-            border-radius: 10px;
-            padding: 5px;
-            margin-bottom: 1.5em;
-        }
-        
-        .search input {
-            border: none;
-            background-color: #f9f1f0;
-        }
-        
-        .search input:focus {
-            outline: none;
+            background-color: #a03351;
         }

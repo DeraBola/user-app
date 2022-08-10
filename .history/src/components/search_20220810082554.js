@@ -7,10 +7,8 @@ const Search = ({ handleSearchUser }) => {
 <MdSearch className="search-icons" size='1.3em' />
 <input
  onChange={ (event) =>
- handleSearchUser(event.target.value)
-}  
- type='text' 
- placeholder="type to search..." />
+ handleSearchUser(event.target.value)}  
+ type='text' placeholder="type to search..." />
 </div>
     )
 };

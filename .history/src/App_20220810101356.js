@@ -21,14 +21,14 @@ useEffect(() => {
     getUsersRequest();
 }, []);
 
-const [searchText, setSearchText] = useState("");
+const [searchText, setSearchText] = useState(""
   return (
     <div className="container">
       <Search handleSearchUser={setSearchText} />
       <div className="grid">
       <UsersList 
       users={users.filter((user) =>
-        user.name.includes(searchText)
+        user||"".text.toLowerCase().includes(searchText)  
         )} 
       />
     </div>

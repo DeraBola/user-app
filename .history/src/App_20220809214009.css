@@ -28,7 +28,7 @@
             border-top: 1px solid #f9f1f0;
             border-left: 1px solid #f9f1f0;
             margin-top: 10px;
-            padding: 3px;
+            padding: 5px;
         }
         
         .name {
@@ -50,11 +50,4 @@
             margin-bottom: 1.5em;
         }
         
-        .search input {
-            border: none;
-            background-color: #f9f1f0;
-        }
-        
-        .search input:focus {
-            outline: none;
-        }
+        {}

@@ -28,7 +28,7 @@ const [searchText, setSearchText] = useState("");
       <div className="grid">
       <UsersList 
       users={users.filter((user) =>
-        user.name.includes(searchText)
+        ||"".text.toLowerCase().includes(searchText)
         )} 
       />
     </div>
